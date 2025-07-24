@@ -1,0 +1,101 @@
+/* src/styles/Layout.css */
+
+/* Core layout styles for header and content */
+/* Reset any existing body padding */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* paddingTop will be set dynamically by JavaScript in the Header component */
+}
+
+/* Ensure root takes full width and no horizontal overflow */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* Remove max-width, padding, and text-align properties to allow full-width layouts */
+}
+
+/* Content container for main page content */
+.content-container {
+  width: 100%;
+  /* No need for padding-top as it's handled by body */
+}
+
+/* For hero sections with colored backgrounds, add extra vertical padding */
+.hero-section {
+  padding-top: 1.5rem; /* Extra cushion on top of the automatic body padding */
+  padding-bottom: 3rem;
+}
+
+/* For main content sections */
+.main-section {
+  padding-top: 1rem; /* Small cushion on top of the automatic body padding */
+}
+
+/* Fix for mobile view */
+@media (max-width: 768px) {
+  /* Add extra padding for mobile when menu might be expanded */
+  .mobile-menu-open {
+    padding-top: 1rem;
+  }
+}
+
+/* Allow pages to use a .header-offset class if they need it */
+.header-offset {
+  margin-top: -1rem; /* Can be used to fine-tune specific pages */
+}
+
+/* App container styling */
+.app-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Keep animation styles for logos */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Component-specific styling */
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* If you need center-aligned text in specific sections rather than globally */
+.text-center-content {
+  text-align: center;
+}
