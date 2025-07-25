@@ -144,17 +144,17 @@ const services = [
     icon: "💻",
   },
   {
-    id: 5,
-    title: "Embedded & IoT Projects",
-    description: "Development for TM4C123GXL, Pic16F, and embedded systems.",
-    icon: "🔌",
+    "id": 5,
+    "title": "DevOps",
+    "description": "CI/CD automation and infrastructure setup.",
+    "icon": "⚙️"
   },
-  // {
-  //   id: 6,
-  //   title: "Team Leadership & Training",
-  //   description: "Leading teams, mentoring, and knowledge sharing.",
-  //   icon: "👩‍💼",
-  // },
+  {
+    "id": 6,
+    "title": "Docker & AWS EKS (Elastic Kubernetes Service)",
+    "description": "Container orchestration and team mentoring.",
+    "icon": "🐳"
+  }  
 ];
 
 const ServiceCard = ({ service }) => {
