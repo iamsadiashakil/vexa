@@ -73,21 +73,21 @@ const AboutUs = () => {
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <TeamMember
-              name="Sadia Shakil"
-              role="CEO & Founder"
-              bio="Visionary leader with 6+ years in software development."
-              image={sadiaImage}
-            />
-            <TeamMember
               name="Bilal Akbar"
-              role="Project Manager"
-              bio="Experienced in managing projects and driving business growth through strategic development."
+              role="CEO & Founder"
+              bio="Visionary leader with 15+ years in business development."
               image={bilalImage}
+            />
+             <TeamMember
+              name="Sadia Shakil"
+              role="CTO & Co-Founder"
+              bio="Technology expert specializing in scalable architechtures."
+              image={sadiaImage}
             />
             <TeamMember
               name="Khadija Tahira"
               role="Developer"
-              bio="Application developer focused on delivering robust and efficient software solutions."
+              bio="Full-stack developer passionate about clean code."
               image={khadijaImage}
             />
           </div>
