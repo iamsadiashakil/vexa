@@ -148,7 +148,7 @@ export const projectsData = [
       'PostgreSQL',
     ],
     problem:
-      'Managing patients, doctors and appointments manually or with disconnected systems often leads to inefficiencies and poor healthcare delivery. There was a need for a central, robust, and scalable backend system with clear validation and future extensibility.',
+      'Managing patients, doctors, and appointments manually or with disconnected systems often leads to inefficiencies and poor healthcare delivery. There was a need for a central, robust, and scalable backend system with clear validation and future extensibility.',
     solution:
       'I developed a modular RESTful API system using Spring Boot to handle patient records, doctor profiles, and appointment scheduling. It includes full CRUD support, input validation, and future-ready architecture. Docker Compose was used to containerize and manage the database environment. The codebase is designed to be extensible, with planned integrations for JWT-based security and Swagger API documentation. Data integrity is enforced through strict validation, and the application is easy to run and test using Maven and Docker.',
   }
