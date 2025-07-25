@@ -33,7 +33,7 @@ const Footer = () => {
                 LinkedIn 
               </a>
               <br />
-              <a href="mailto:info@vexa.com" className="hover:text-white flex items-center">
+              <a href="mailto:vexa.information@gmail.com" className="hover:text-white flex items-center">
                 <EnvelopeIcon className="w-5 h-5 mr-2" />
                 vexa.information@gmail.com
               </a>
@@ -41,6 +41,11 @@ const Footer = () => {
               <a href="tel:+923024800946" className="hover:text-white flex items-center">
                 <PhoneIcon className="w-5 h-5 mr-2" />
                 (+92) 302 4800946
+              </a>
+              <br />
+              <a href="tel:+923075410858" className="hover:text-white flex items-center">
+                <PhoneIcon className="w-5 h-5 mr-2" />
+                (+92) 307 5410858
               </a>
             </div>
           </div>
