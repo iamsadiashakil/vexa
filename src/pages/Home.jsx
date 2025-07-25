@@ -144,16 +144,16 @@ const services = [
     icon: "💻",
   },
   {
-    "id": 5,
-    "title": "DevOps",
-    "description": "CI/CD automation and infrastructure setup.",
-    "icon": "⚙️"
+    id: 5,
+    title: "DevOps",
+    description: "Docker, AWS EKS (Elastic Kubernetes Service).",
+    icon: "⚙️"
   },
   {
-    "id": 6,
-    "title": "Docker & AWS EKS (Elastic Kubernetes Service)",
-    "description": "Container orchestration and team mentoring.",
-    "icon": "🐳"
+    id: 6,
+    title: "Databases",
+    description: "PostgreSQL, Redis, MSSQL Server, MySQL, SQL Lite.",
+    icon: "🗃️"
   }  
 ];
 
