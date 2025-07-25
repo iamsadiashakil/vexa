@@ -21,7 +21,7 @@ At Vexa Ltd., we provide a range of software development services, including:
 - **Technical Consulting** – Expert guidance to turn your ideas into reality.
 
 ## 🌐 Website
-Visit our official website to explore our services: [https://vexa.com](https://vexa.com)
+Visit our official website to explore our services: [https://iamsadiashakil.github.io/vexa_website/](https://iamsadiashakil.github.io/vexa_website/))
 
 ## 🛠️ Technologies We Use
 Our expertise includes (but is not limited to):
@@ -33,8 +33,8 @@ Our expertise includes (but is not limited to):
 
 ## 📞 Contact Us
 For business inquiries or collaborations:
-- **Email:** contact@vexa.com
-- **Phone:** +1-XXX-XXX-XXXX
+- **Email:** vexa.information@gmail.com
+- **Phone:** +92 302 4800946
 - **LinkedIn:** [Vexa Ltd.](https://linkedin.com/company/vexa-ltd)
 
 
