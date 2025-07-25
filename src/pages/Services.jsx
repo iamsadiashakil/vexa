@@ -3,13 +3,13 @@ import SectionTitle from '../components/SectionTitle';
 import ServiceDetail from '../components/ServiceDetail';
 import Header from '../components/Navbar';
 import Footer from '../components/Footer';
-import { CodeBracketIcon, GlobeAltIcon, DevicePhoneMobileIcon } from '../components/Icons';
+import { CodeBracketIcon, GlobeAltIcon, DevicePhoneMobileIcon, WrenchScrewdriverIcon } from '../components/Icons';
 
 const Services = () => {
   return (
     <div className="content-container">
       <Header />
-      
+
       <div className="bg-gray-50">
         {/* Hero Section */}
         <section className="hero-section bg-gradient-to-r from-blue-600 to-blue-500 text-white">
@@ -28,7 +28,7 @@ const Services = () => {
             title="Expert Software Solutions"
             description="We provide end-to-end services from concept to deployment and beyond."
           />
-          
+
           <div className="space-y-12">
             <ServiceDetail
               title="Java Spring Boot API Development"
@@ -92,17 +92,17 @@ const Services = () => {
 
             <ServiceDetail
               title="DevOps"
-              shortDescription="Embedded systems, device integrations, and automation"
-              longDescription="Design and prototyping of embedded systems, automation solutions, and IoT device integration. Example projects include smart strollers, automated appliances, and microcontroller programming."
+              shortDescription="CI/CD pipelines, infrastructure automation, and system reliability"
+              longDescription="Planning, implementing, and maintaining DevOps pipelines and infrastructure. Services include CI/CD automation, infrastructure as code, monitoring, and ensuring system scalability and availability."
               features={[
-                "Embedded system prototyping (TM4C123GXL, PIC16F, etc.)",
-                "IoT device connectivity",
-                "Firmware development in Embedded C",
-                "Android app integration with hardware",
-                "Automation & control systems"
+                "CI/CD pipeline setup and optimization",
+                "Infrastructure as Code (Terraform, Ansible)",
+                "Monitoring and alerting (Prometheus, Grafana)",
+                "Cloud resource provisioning and automation",
+                "Release management and deployment strategies"
               ]}
-              technologies={["Embedded C", "Energia IDE", "Code Composer Studio", "Android Studio"]}
-              icon={DevicePhoneMobileIcon}
+              technologies={["Jenkins", "GitLab CI", "Terraform", "Ansible", "Prometheus", "Grafana", "AWS", "Docker"]}
+              icon={WrenchScrewdriverIcon}
             />
           </div>
         </section>
@@ -122,7 +122,7 @@ const Services = () => {
           </div>
         </section>
       </div>
-      
+
       <Footer />
     </div>
   );
