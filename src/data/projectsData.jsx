@@ -150,31 +150,7 @@ export const projectsData = [
       'Managing patients, doctors, and appointments manually or with disconnected systems often leads to inefficiencies and poor healthcare delivery. There was a need for a central, robust, and scalable backend system with clear validation and future extensibility.',
     solution:
       'I developed a modular RESTful API system using Spring Boot to handle patient records, doctor profiles, and appointment scheduling. It includes full CRUD support, input validation, and future-ready architecture. Docker Compose was used to containerize and manage the database environment. The codebase is designed to be extensible, with planned integrations for JWT-based security and Swagger API documentation. Data integrity is enforced through strict validation, and the application is easy to run and test using Maven and Docker.',
-  },
-  {
-    id: 10,
-    slug: 'mobile-app-web-service',
-    title: 'Mobile App Web Service',
-    description:
-      'Spring Boot RESTful web service with JWT authentication, HATEOAS support, and JSON Patch for partial updates. Designed to manage users and addresses with secure, scalable architecture.',
-    image: customer, // Ensure the image is available or update the path
-    link: 'https://github.com/your-username/mobile-app-ws',
-    techStack: [
-      'Java 8',
-      'Spring Boot',
-      'Spring Security',
-      'JWT',
-      'MySQL',
-      'Maven',
-      'HATEOAS',
-      'ModelMapper',
-      'JSON Patch'
-    ],
-    problem:
-      'There was a need for a secure and flexible backend service capable of handling user and address data with modern API practices. The goal was to build an authentication-aware system with full CRUD functionality, support for partial updates, and HATEOAS-enabled hypermedia responses, while ensuring scalable architecture and strong security.',
-    solution:
-      'I developed a Spring Boot-based REST API featuring JWT authentication and role-based access control. The service provides complete CRUD operations for users and addresses, supports content negotiation (JSON/XML), and includes partial update functionality via JSON Patch. HATEOAS links were integrated for hypermedia-driven responses. The backend was powered by MySQL with data access via Spring Data JPA and DTO conversion using ModelMapper. Unit testing was implemented with JUnit 5 and Mockito, and the system is ready for production with robust security and clean architecture.',
-  }  
+  }
 ];
 
 export default projectsData;
