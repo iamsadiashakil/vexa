@@ -24,7 +24,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Contact Info</h3>
             <div className="text-gray-400 space-y-2">
               <a
-                href="https://www.linkedin.com/in/sadia-shakil-557b3b136/"
+                href="https://www.linkedin.com/company/vexa-technologies"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white flex items-center underline"
@@ -38,15 +38,16 @@ const Footer = () => {
                 vexa.information@gmail.com
               </a>
               <br />
-              <a href="tel:+923024800946" className="hover:text-white flex items-center">
-                <PhoneIcon className="w-5 h-5 mr-2" />
-                (+92) 302 4800946
-              </a>
-              <br />
               <a href="tel:+923075410858" className="hover:text-white flex items-center">
                 <PhoneIcon className="w-5 h-5 mr-2" />
                 (+92) 307 5410858
               </a>
+              <br />
+              <a href="tel:+923024800946" className="hover:text-white flex items-center">
+                <PhoneIcon className="w-5 h-5 mr-2" />
+                (+92) 302 4800946
+              </a>
+              
             </div>
           </div>
         </div>
