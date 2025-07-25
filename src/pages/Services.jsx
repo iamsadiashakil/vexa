@@ -115,20 +115,19 @@ const Services = () => {
               longDescription="Planning, implementing, and maintaining DevOps pipelines and infrastructure. Services include CI/CD automation, infrastructure as code, monitoring, and ensuring system scalability and availability."
               features={[
                 "CI/CD pipeline setup and optimization",
-                "Infrastructure as Code (Terraform, Ansible)",
-                "Monitoring and alerting (Prometheus, Grafana)",
-                "Cloud resource provisioning and automation",
+                "Monitoring and alerting (Prometheus, Grafana, Datadog",
                 "Release management and deployment strategies",
               ]}
               technologies={[
                 "Jenkins",
                 "GitLab CI",
                 "Terraform",
-                "Ansible",
                 "Prometheus",
-                "Grafana",
-                "AWS",
+                "Grafana", 
+                "Datadog",
+                "AWS EKS",
                 "Docker",
+                "ELK"
               ]}
               icon={DevicePhoneMobileIcon}
             />
