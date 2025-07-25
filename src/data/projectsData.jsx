@@ -2,10 +2,11 @@ import confiz from '../assets/project-confiz-nhp.jpg'
 import walmart from '../assets/project-walmart.jpg'
 import revinate from '../assets/project-revinate.png'
 import secp from '../assets/project-secp.png'
-import customer from '../assets/project-customer-app.png'
+import customer from '../assets/project-customer.png'
 import pie from '../assets/project-pie.png'
 import staff from '../assets/project-staff.png'
 import patient from '../assets/project-patient.png'
+import health from '../assets/project-health.png'
 
 export const projectsData = [
   {
@@ -136,7 +137,7 @@ export const projectsData = [
     title: 'Healthcare Service API',
     description:
       'Spring Boot-based RESTful API to manage patients, doctors, and appointments in a healthcare system. Designed with clean architecture, validation rules, and ready for future scalability.',
-    image: customer, // Make sure this image exists or adjust the path
+    image: health, // Make sure this image exists or adjust the path
     link: 'http://localhost:8080/api', // Or GitHub repo link if available
     techStack: [
       'Java',
