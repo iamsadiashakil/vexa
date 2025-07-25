@@ -1,20 +1,26 @@
-import { Link } from 'react-router-dom';
-import SectionTitle from '../components/SectionTitle';
-import ServiceDetail from '../components/ServiceDetail';
-import Header from '../components/Navbar';
-import Footer from '../components/Footer';
-import { CodeBracketIcon, GlobeAltIcon, DevicePhoneMobileIcon } from '../components/Icons';
+import { Link } from "react-router-dom";
+import SectionTitle from "../components/SectionTitle";
+import ServiceDetail from "../components/ServiceDetail";
+import Header from "../components/Navbar";
+import Footer from "../components/Footer";
+import {
+  CodeBracketIcon,
+  GlobeAltIcon,
+  DevicePhoneMobileIcon,
+} from "../components/Icons";
 
 const Services = () => {
   return (
     <div className="content-container">
       <Header />
-      
+
       <div className="bg-gray-50">
         {/* Hero Section */}
         <section className="hero-section bg-gradient-to-r from-blue-600 to-blue-500 text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 py-20">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Our Services
+            </h1>
             <p className="text-xl text-blue-100">
               Comprehensive software solutions tailored to your business needs.
             </p>
@@ -28,7 +34,7 @@ const Services = () => {
             title="Expert Software Solutions"
             description="We provide end-to-end services from concept to deployment and beyond."
           />
-          
+
           <div className="space-y-12">
             <ServiceDetail
               title="Java Spring Boot API Development"
@@ -39,9 +45,16 @@ const Services = () => {
                 "Spring Security & authentication",
                 "CI/CD & AWS EKS deployment",
                 "Legacy system integration",
-                "Performance tuning & troubleshooting"
+                "Performance tuning & troubleshooting",
               ]}
-              technologies={["Java", "Spring Boot", "Spring Security", "AWS EKS", "Docker", "CI/CD"]}
+              technologies={[
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "AWS EKS",
+                "Docker",
+                "CI/CD",
+              ]}
               icon={CodeBracketIcon}
             />
 
@@ -69,9 +82,15 @@ const Services = () => {
                 "Native Android development (Android Studio)",
                 "IoT/embedded device integration",
                 "Push notifications & analytics",
-                "App store publishing support"
+                "App store publishing support",
               ]}
-              technologies={["C#", "Xamarin", "Android Studio", "Embedded C", "MVVM Cross"]}
+              technologies={[
+                "C#",
+                "Xamarin",
+                "Android Studio",
+                "Embedded C",
+                "MVVM Cross",
+              ]}
               icon={DevicePhoneMobileIcon}
             />
 
@@ -84,27 +103,35 @@ const Services = () => {
                 "Bug fixing & troubleshooting",
                 "Modernization & migration to cloud",
                 "Database migrations",
-                "Documentation & support"
+                "Documentation & support",
               ]}
               technologies={["PHP", ".NET", "Java", "AWS", "Database Tools"]}
               icon={CodeBracketIcon}
             />
 
             <ServiceDetail
-  title="DevOps"
-  shortDescription="CI/CD pipelines, infrastructure automation, and system reliability"
-  longDescription="Planning, implementing, and maintaining DevOps pipelines and infrastructure. Services include CI/CD automation, infrastructure as code, monitoring, and ensuring system scalability and availability."
-  features={[
-    "CI/CD pipeline setup and optimization",
-    "Infrastructure as Code (Terraform, Ansible)",
-    "Monitoring and alerting (Prometheus, Grafana)",
-    "Cloud resource provisioning and automation",
-    "Release management and deployment strategies"
-  ]}
-  technologies={["Jenkins", "GitLab CI", "Terraform", "Ansible", "Prometheus", "Grafana", "AWS", "Docker"]}
-  icon={WrenchScrewdriverIcon}
-/>
-
+              title="DevOps"
+              shortDescription="CI/CD pipelines, infrastructure automation, and system reliability"
+              longDescription="Planning, implementing, and maintaining DevOps pipelines and infrastructure. Services include CI/CD automation, infrastructure as code, monitoring, and ensuring system scalability and availability."
+              features={[
+                "CI/CD pipeline setup and optimization",
+                "Infrastructure as Code (Terraform, Ansible)",
+                "Monitoring and alerting (Prometheus, Grafana)",
+                "Cloud resource provisioning and automation",
+                "Release management and deployment strategies",
+              ]}
+              technologies={[
+                "Jenkins",
+                "GitLab CI",
+                "Terraform",
+                "Ansible",
+                "Prometheus",
+                "Grafana",
+                "AWS",
+                "Docker",
+              ]}
+              icon={DevicePhoneMobileIcon}
+            />
           </div>
         </section>
 
@@ -123,10 +150,10 @@ const Services = () => {
           </div>
         </section>
       </div>
-      
+
       <Footer />
     </div>
   );
 };
 
-export default Services;  
+export default Services;
