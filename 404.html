@@ -1,4 +1,16 @@
-<script>
-  sessionStorage.redirect = location.href;
-  location.replace("/vexa_website/");
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      const redirectPath = sessionStorage.redirect || '/vexa_website/';
+      sessionStorage.removeItem('redirect');
+      location.replace(redirectPath);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
+
