@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './layouts/Layout';
-import LoadingSpinner from './components/LoadingSpinner';
 import LayoutManager from './components/LayoutManager';
 
-// Direct imports (no lazy loading)
+// Pages
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
@@ -12,13 +10,12 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import ProjectDetail from './pages/ProjectDetail';
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/vexa_website">
       <LayoutManager>
         <Routes>
-          <Route path="/vexa_website/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
