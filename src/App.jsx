@@ -18,7 +18,7 @@ function App() {
     <Router>
       <LayoutManager>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/vexa_website" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
