@@ -1,4 +1,5 @@
 import { EnvelopeIcon, LinkedinIcon, PhoneIcon } from './Icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -14,10 +15,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/vexa_website/about" className="text-gray-400 hover:text-white">About Us</a></li>
-              <li><a href="/vexa_website/services" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="/vexa_website/portfolio" className="text-gray-400 hover:text-white">Portfolio</a></li>
-              <li><a href="/vexa_website/contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white">Services</Link></li>
+              <li><Link to="/portfolio" className="text-gray-400 hover:text-white">Portfolio</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
             </ul>
           </div>
           <div>
@@ -47,7 +48,6 @@ const Footer = () => {
                 <PhoneIcon className="w-5 h-5 mr-2" />
                 (+92) 302 4800946
               </a>
-              
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
