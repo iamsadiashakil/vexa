@@ -5,9 +5,11 @@ import CompanyValues from "../components/CompanyValues";
 import Header from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import khadijaImage from "../assets/khadija.jpeg";
-import bilalImage from "../assets/bilalAkbar.jpg";
+import bilalImage from "../assets/bilalAkbar.png";
 import sadiaImage from "../assets/sadia.jpeg";
+import mahamImage from "../assets/maham.png";
+import khadijaImage from "../assets/khadija.png";
+import ahmedImage from "../assets/ahmed.png";
 
 import officeImage from "../assets/office.png";
 
@@ -85,10 +87,22 @@ const AboutUs = () => {
               image={sadiaImage}
             />
             <TeamMember
+              name="Hafiza Maham Ejaz"
+              role="COO"
+              bio="Operations strategist with a strong background in optimizing workflows and team efficiency."
+              image={mahamImage}
+            />
+            <TeamMember
               name="Khadija Tahira"
-              role="Developer"
+              role="Software Engineer"
               bio="Full-stack developer passionate about clean code."
               image={khadijaImage}
+            />
+            <TeamMember
+              name="Muhammad Ahmed"
+              role="Software Engineer"
+              bio="Frontend developer focused on building responsive and user-friendly interfaces."
+              image={ahmedImage}
             />
           </div>
         </section>
