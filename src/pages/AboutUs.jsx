@@ -5,7 +5,7 @@ import CompanyValues from "../components/CompanyValues";
 import Header from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import bilalImage from "../assets/bilalAkbar.png";
+import bilalImage from "../assets/bilal.png";
 import sadiaImage from "../assets/sadia.png";
 import mahamImage from "../assets/maham.png";
 import khadijaImage from "../assets/khadija.png";
