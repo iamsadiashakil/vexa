@@ -32,11 +32,11 @@ const projects = [
     techStack: ['Java', 'Spring Boot', 'Spring Security', 'Microservices'],
   },
   {
-    title: 'PIE',
+    title: 'PIE International',
     description:
-      'Developed high-availability API solutions for the PIE project, targeting the Middle East healthcare market. Delivered robust, scalable backend services in Java Spring Boot.',
+      'As part of a high-impact initiative for PIE International, I contributed to the development of Flooss—a financial services platform designed for clients in the Middle East. The project involved building a custom backend using Java Spring Boot, with a strong emphasis on flexibility, scalability, and compliance with regional financial regulations.',
     image: '/assets/project-pie.jpg', // Replace with actual image if available
-    link: 'http://your-ecommerce-demo.com/', // Add demo or repo link if available
+    link: 'https://pie-int.com/', // Add demo or repo link if available
     techStack: ['Java', 'Spring Boot', 'Spring Security'],
   },
   {

@@ -16,7 +16,7 @@ export const projectsData = [
     description:
       'Development of RESTful API solutions for the Revinate platform, including subscription management and marketing tools.',
     image: revinate,
-    link: 'http://your-ecommerce-demo.com/',
+    link: 'https://www.revinate.com/',
     techStack: ['Java', 'Spring Boot', 'Spring Security', 'AWS EKS', 'PHP', 'Docker'],
     problem: 
       'Revinate needed to modernize their hospitality platform while maintaining legacy systems. They faced challenges with scaling their subscription management and marketing tools to meet growing demand, while also managing a complex cloud migration from legacy PHP applications to modern microservices architecture. Additionally, they needed robust RESTful APIs to support their expanding suite of applications and improve integration capabilities.',
@@ -30,7 +30,7 @@ export const projectsData = [
     description:
       'Designed and built highly-available and secure API solutions in Java Spring Boot for the Securities & Exchange Commission of Pakistan (SECP).',
     image: secp,
-    link: 'http://your-ecommerce-demo.com/',
+    link: 'https://www.secp.gov.pk/',
     techStack: ['Java', 'Spring Boot', 'Spring Security'],
     problem:
       'The Securities & Exchange Commission of Pakistan (SECP) required a modern, high-availability API solution to replace their legacy systems. The existing infrastructure suffered from reliability issues, security vulnerabilities, and limited scalability, impacting their ability to efficiently regulate and oversee financial markets. The system needed to handle sensitive financial data with robust security measures while ensuring 24/7 availability even during peak loads.',
@@ -44,7 +44,7 @@ export const projectsData = [
     description:
       'Collaborated on multiple projects for Walmart, including Clinical Packages (Compound Drugs) and RDM Carbon Prescriber.',
     image: walmart,
-    link: 'http://your-ecommerce-demo.com/',
+    link: 'https://www.walmart.com/',
     techStack: ['Java', 'Spring Boot', 'Spring Security', 'Microservices'],
     problem:
       'Walmarts healthcare platforms faced significant challenges in their pharmacy and clinical services. The existing systems for compound drugs lacked flexibility for complex medication formulations and pricing structures. Simultaneously, the prescriber platform struggled with integration limitations, making it difficult to maintain a unified view of prescriber data across different systems. These technical constraints were limiting Walmarts ability to innovate and scale their healthcare offerings while maintaining compliance with healthcare regulations and data security standards.',
@@ -53,17 +53,17 @@ export const projectsData = [
   },
   {
     id: 4,
-    slug: 'pie-healthcare',
-    title: 'PIE',
+    slug: 'PIE-international',
+    title: 'PIE International',
     description:
-      'Developed high-availability API solutions for the PIE project, targeting the Middle East healthcare market.',
+      'As part of a high-impact initiative for PIE International, I contributed to the development of Flooss—a financial services platform designed for clients in the Middle East. The project involved building a custom backend using Java Spring Boot, with a strong emphasis on flexibility, scalability, and compliance with regional financial regulations.',
     image: pie,
-    link: 'http://your-ecommerce-demo.com/',
-    techStack: ['Java', 'Spring Boot', 'Spring Security'],
+    link: 'https://pie-int.com/',
+    techStack: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'PostgreSQL'],
     problem:
-      'The PIE healthcare project in the Middle East faced significant challenges with their legacy systems that could not meet the growing demands of regional healthcare providers. Their existing infrastructure suffered from frequent downtime, limited scalability, and security vulnerabilities. Additionally, the platform struggled with integration capabilities, making it difficult to connect with various healthcare systems and devices across different facilities. These limitations were impeding their expansion plans and affecting service quality in a rapidly growing market.',
+      'PIE International needed a fully customized financial platform designed to meet the unique regulatory, business, and cultural requirements of clients in the Middle East. Off-the-shelf systems lacked the flexibility to support regional financial workflows, including Sharia-compliant logic, multi-tenant onboarding, and localized user experiences. The client also required a mobile-first solution to ensure accessibility across a diverse user base, especially in markets where mobile usage dominates. Integration with third-party systems and future scalability were also critical requirements.',
     solution:
-      'I designed and developed a comprehensive high-availability API solution tailored for the Middle Eastern healthcare market. The architecture utilized Java Spring Boot for its robust enterprise capabilities and Spring Security for implementing advanced security features. The system was designed with redundancy at every layer to ensure continuous operation even during component failures. I implemented a sophisticated caching strategy to optimize performance while maintaining data consistency across distributed systems. The APIs were built following RESTful principles with comprehensive documentation to facilitate integration with various healthcare systems. Security features included end-to-end encryption, detailed audit logging, and compliance with regional healthcare data regulations. The solution also incorporated culturally-specific requirements such as right-to-left language support and regional calendar systems. This implementation significantly improved system reliability, with uptime increasing to 99.99%, while enabling seamless integration with various healthcare platforms across the region.'
+      'To address these needs, we developed Flooss, a complete financial solution with a custom backend built in Java Spring Boot and a native Android frontend. The backend was architected using modular microservices with Spring Data JPA for efficient database operations, Spring Security for authentication and role-based access. PostgreSQL was used as the primary data store. The Android application was developed using Java and Android Studio, designed with an intuitive UI and full integration with backend APIs to ensure seamless real-time interactions. Together, the system supported complex financial workflows, ensured regulatory compliance, and provided a scalable, mobile-first experience tailored to the Middle Eastern market.'
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ export const projectsData = [
     description:
       'Built new features for the Confiz Core product and developed the NHP – Mi Heal Team mobile application.',
     image: confiz,
-    link: 'http://your-ecommerce-demo.com/',
+    link: 'https://www.confiz.com/mobile-application-development/',
     techStack: ['C#', 'Xamarin Android', 'MVVM Cross'],
     problem:
       'Confiz faced dual challenges with their core product and mobile healthcare initiative. The core product required new features to remain competitive, while the National Health Program (NHP) needed a mobile solution for healthcare teams. The Mi Heal Team app needed to function reliably in areas with limited connectivity, maintain patient data security, and provide an intuitive interface for healthcare professionals with varying levels of technical proficiency. Additionally, the app needed to integrate with existing health information systems while operating efficiently on a variety of Android devices.',
@@ -86,7 +86,7 @@ export const projectsData = [
     description:
       'Spring Boot-based RESTful API for managing customers and users with JWT-based authentication and authorization.',
     image: customer,
-    link: 'http://your-ecommerce-demo.com/',
+    link: 'https://github.com/iamsadiashakil/customer-app',
     techStack: [
       'Java 11',
       'Spring Boot',
@@ -138,7 +138,7 @@ export const projectsData = [
     description:
       'Spring Boot-based RESTful API to manage patients, doctors, and appointments in a healthcare system. Designed with clean architecture, validation rules, and ready for future scalability.',
     image: health, // Make sure this image exists or adjust the path
-    link: 'http://localhost:8080/api', // Or GitHub repo link if available
+    link: 'https://github.com/iamsadiashakil/healthcare-service', // Or GitHub repo link if available
     techStack: [
       'Java',
       'Spring Boot',

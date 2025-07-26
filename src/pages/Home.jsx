@@ -119,22 +119,22 @@ const Home = () => {
 const services = [
   {
     id: 1,
-    title: "API & Backend Development",
+    title: "Server-Side Development",
     description:
-      "High-availability and scalable RESTful APIs in Java SpringBoot and C#, deployed on AWS EKS.",
+      "Robust and scalable RESTful APIs using Java SpringBoot (Spring Data JPA, Spring Security) and C# (MVVM Cross), designed for high availability and performance.",
     icon: "🔗",
   },
   {
     id: 2,
-    title: "Mobile App Development",
-    description: "Cross-platform mobile apps for Android using Xamarin and C#.",
+    title: "Client-Side Development",
+    description: "Native Android apps in Java, cross-platform mobile apps using Xamarin (C#), and responsive web interfaces using HTML and CSS.",
     icon: "📱",
   },
   {
     id: 3,
-    title: "Legacy System Maintenance",
-    description: "Bug fixing and support for PHP and older platforms.",
-    icon: "🐞",
+    title: "Cloud & DevOps",
+    description: "Containerized deployment with Docker and orchestration using AWS EKS (Elastic Kubernetes Service).",
+    icon: "☁️",
   },
   {
     id: 4,
@@ -145,15 +145,15 @@ const services = [
   },
   {
     id: 5,
-    title: "DevOps",
-    description: "Docker, AWS EKS (Elastic Kubernetes Service).",
-    icon: "⚙️"
+    title: "Databases",
+    description: "Hands-on experience with PostgreSQL, Redis, MSSQL Server, MySQL, and SQLite.",
+    icon: "🗃️"
   },
   {
     id: 6,
-    title: "Databases",
-    description: "PostgreSQL, Redis, MSSQL Server, MySQL, SQL Lite.",
-    icon: "🗃️"
+    title: "Monitoring & Logging",
+    description: "Proficient in using ELK Stack, Rollbar, and DataDog for application monitoring, error tracking, and log analysis.",
+    icon: "🔍"
   }  
 ];
 

@@ -43,11 +43,6 @@ const Footer = () => {
                 <PhoneIcon className="w-5 h-5 mr-2" />
                 (+92) 307 5410858
               </a>
-              <br />
-              <a href="tel:+923024800946" className="hover:text-white flex items-center">
-                <PhoneIcon className="w-5 h-5 mr-2" />
-                (+92) 302 4800946
-              </a>
             </div>
           </div>
         </div>

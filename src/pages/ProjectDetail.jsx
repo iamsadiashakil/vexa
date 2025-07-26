@@ -86,12 +86,14 @@ const ProjectDetail = () => {
                   ))}
                 </div>
               </div>
-              <div className="md:w-1/3 mt-8 md:mt-0">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="rounded-lg shadow-xl max-h-64 w-full object-cover"
-                />
+              <div className="md:w-1/4 mt-8 md:mt-0">
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="rounded-lg shadow-xl max-h-64 w-full object-cover"
+                  />
+                </a>
               </div>
             </div>
           </div>

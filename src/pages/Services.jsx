@@ -38,100 +38,90 @@ const Services = () => {
           <div className="space-y-12">
             <ServiceDetail
               title="Java Spring Boot API Development"
-              shortDescription="Robust, scalable APIs using Java Spring Boot"
-              longDescription="Design and development of secure, high-availability RESTful APIs and microservices architectures using Java Spring Boot. Includes Spring Security integration, requirements analysis, and CI/CD deployment to AWS EKS."
+              shortDescription="Robust and scalable RESTful APIs using Spring Boot"
+              longDescription="Design and development of scalable RESTful APIs and microservices using Java Spring Boot. Utilizes Spring Data JPA and Spring Security for secure, high-performance systems. Ideal for enterprise-grade backend applications with strong authentication and data layer integrity."
               features={[
-                "RESTful API & microservice architecture",
-                "Spring Security & authentication",
-                "CI/CD & AWS EKS deployment",
-                "Legacy system integration",
-                "Performance tuning & troubleshooting",
+                "RESTful APIs & microservices architecture",
+                "Spring Data JPA for efficient ORM",
+                "Spring Security with authentication/authorization",
+                "Clean, modular code structure",
+                "Exception handling and async support",
               ]}
               technologies={[
                 "Java",
                 "Spring Boot",
+                "Spring Data JPA",
                 "Spring Security",
-                "AWS EKS",
-                "Docker",
-                "CI/CD",
               ]}
               icon={CodeBracketIcon}
             />
 
-            {/* <ServiceDetail
-              title="Web Application Development"
-              shortDescription="Modern, responsive web applications for your business"
-              longDescription="Development of intuitive, responsive web applications using JavaScript frameworks, classic web stacks, or PHP. Includes integration with backend APIs, database design, and optimization."
-              features={[
-                "React, Angular, or classic web stack frontends",
-                "Backend API integration (Java, PHP, .NET, etc.)",
-                "Database design and optimization",
-                "Custom architecture and business logic",
-                "Performance tuning"
-              ]}
-              technologies={["React", "Angular", "PHP", "JSP", "MySQL", "HTML", "CSS"]}
-              icon={GlobeAltIcon}
-            /> */}
-
             <ServiceDetail
               title="Mobile App Development (Android/Xamarin)"
-              shortDescription="Cross-platform and native Android mobile applications"
-              longDescription="Cross-platform and native Android mobile app development with Xamarin, C#, and Android Studio. Includes experience with IoT/embedded integrations, camera, sensors, notifications, and app store deployment."
+              shortDescription="Native and cross-platform Android apps"
+              longDescription="Development of mobile apps using Xamarin (C#) for cross-platform solutions and Java for native Android applications. Apps are built with clean architecture patterns like MVVM Cross and integrate seamlessly with APIs and native device features."
               features={[
-                "Cross-platform Xamarin Android apps",
-                "Native Android development (Android Studio)",
-                "IoT/embedded device integration",
-                "Push notifications & analytics",
-                "App store publishing support",
+                "Cross-platform apps with Xamarin (C#)",
+                "Native Android apps using Java",
+                "MVVM Cross architecture",
+                "Integration with device features (camera, sensors, etc.)",
+                "App deployment and store publishing",
               ]}
               technologies={[
-                "C#",
                 "Xamarin",
-                "Android Studio",
-                "Embedded C",
+                "C#",
                 "MVVM Cross",
+                "Android (Java)",
+                "Android Studio",
+                "SQLite",
               ]}
               icon={DevicePhoneMobileIcon}
             />
 
             <ServiceDetail
-              title="Legacy System Maintenance & Migration"
-              shortDescription="Bug fixing, modernization, and migration for legacy applications"
-              longDescription="Expertise in maintaining and upgrading legacy systems, including PHP and .NET applications. Services include bug fixing, performance improvements, and migration to modern cloud architectures."
+              title="Database Management & Integration"
+              shortDescription="Robust, scalable, and optimized data storage solutions"
+              longDescription="Design and management of relational and in-memory databases for both transactional and analytical applications. Includes schema design, query optimization, data migration, and seamless integration with backend services."
               features={[
-                "Legacy PHP/.NET application maintenance",
-                "Bug fixing & troubleshooting",
-                "Modernization & migration to cloud",
-                "Database migrations",
-                "Documentation & support",
+                "Relational and in-memory database support",
+                "PostgreSQL, MySQL, MSSQL Server, SQLite",
+                "Redis for caching and real-time data access",
+                "Schema design and normalization",
+                "Query optimization and performance tuning",
               ]}
-              technologies={["PHP", ".NET", "Java", "AWS", "Database Tools"]}
+              technologies={[
+                "PostgreSQL",
+                "MySQL",
+                "MSSQL Server",
+                "SQLite",
+                "Redis",
+              ]}
               icon={CodeBracketIcon}
             />
 
             <ServiceDetail
-              title="DevOps"
-              shortDescription="CI/CD pipelines, infrastructure automation, and system reliability"
-              longDescription="Planning, implementing, and maintaining DevOps pipelines and infrastructure. Services include CI/CD automation, infrastructure as code, monitoring, and ensuring system scalability and availability."
+              title="Cloud & DevOps"
+              shortDescription="Deployment automation, container orchestration, and observability"
+              longDescription="DevOps services including CI/CD pipelines, containerization using Docker, and cloud orchestration on AWS EKS. Also includes implementation of observability tools like ELK, Rollbar, and DataDog for system monitoring, logging, and performance insights."
               features={[
-                "CI/CD pipeline setup and optimization",
-                "Monitoring and alerting (Prometheus, Grafana, Datadog",
-                "Release management and deployment strategies",
+                "Containerization with Docker",
+                "Kubernetes orchestration on AWS EKS",
+                "CI/CD pipeline setup and maintenance",
+                "Infrastructure monitoring and alerting",
+                "Log aggregation and traceability with ELK, Rollbar, DataDog",
               ]}
               technologies={[
-                "Jenkins",
-                "GitLab CI",
-                "Terraform",
-                "Prometheus",
-                "Grafana", 
-                "Datadog",
-                "AWS EKS",
                 "Docker",
-                "ELK"
+                "AWS EKS",
+                "CI/CD",
+                "ELK",
+                "Rollbar",
+                "DataDog",
               ]}
               icon={DevicePhoneMobileIcon}
             />
           </div>
+
         </section>
 
         {/* CTA Section */}
