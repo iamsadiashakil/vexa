@@ -14,19 +14,19 @@ export const projectsData = [
     slug: 'revinate-applications',
     title: 'Revinate Applications',
     description:
-      'Development of RESTful API solutions for the Revinate platform, including subscription management and marketing tools.',
+      'Development of RESTful API solutions for the Revinate platform, including subscription management, Ressales and Marketing.',
     image: revinate,
     link: 'https://www.revinate.com/',
-    techStack: ['Java', 'Spring Boot', 'Spring Security', 'AWS EKS', 'PHP', 'Docker'],
+    techStack: ['Java', 'Spring Boot', 'Spring Security', 'AWS EKS', 'PHP', 'Docker', 'Apache Kafka'],
     problem: 
-      'Revinate needed to modernize their hospitality platform while maintaining legacy systems. They faced challenges with scaling their subscription management and marketing tools to meet growing demand, while also managing a complex cloud migration from legacy PHP applications to modern microservices architecture. Additionally, they needed robust RESTful APIs to support their expanding suite of applications and improve integration capabilities.',
+      'Revinate needed to modernize their hospitality platform while maintaining legacy systems. They faced challenges with scaling their subscription management, ressales and marketing applications to meet growing demand, while also managing a complex cloud migration from legacy PHP applications to modern microservices architecture. Additionally, they needed robust RESTful APIs to support their expanding suite of applications and improve integration capabilities.',
     solution:
-      'I played a key role in developing RESTful API solutions for the Revinate platform, focusing on subscription management and marketing tools. My responsibilities included implementing new features while ensuring backward compatibility with legacy PHP systems, fixing bugs in existing code, and contributing to the migration of services to AWS EKS. I designed scalable microservices using Spring Boot and implemented security best practices with Spring Security. The Docker containerization approach allowed for consistent deployment across development and production environments. This modernization effort resulted in improved system performance, better scalability, and enhanced monitoring capabilities, all while maintaining service continuity for existing customers.'
+      'I played a key role in developing RESTful API solutions for the Revinate platform, focusing on subscription management, ressales and marketing. My responsibilities included implementing new features while ensuring backward compatibility with legacy PHP systems, fixing bugs in existing code, and contributing to the deployment of services to AWS EKS. I designed scalable microservices using Spring Boot and implemented security best practices with Spring Security. The Docker containerization approach allowed for consistent deployment across development and production environments. This modernization effort resulted in improved system performance, better scalability, and enhanced monitoring capabilities, all while maintaining service continuity for existing customers.'
   },
   {
     id: 2,
     slug: 'secp-high-availability-apis',
-    title: 'SECP High-Availability APIs',
+    title: 'SECP',
     description:
       'Designed and built highly-available and secure API solutions in Java Spring Boot for the Securities & Exchange Commission of Pakistan (SECP).',
     image: secp,
@@ -40,16 +40,16 @@ export const projectsData = [
   {
     id: 3,
     slug: 'walmart-clinical-prescriber-platforms',
-    title: 'Walmart Clinical & Prescriber Platforms',
+    title: 'Walmart Health & Wellness',
     description:
-      'Collaborated on multiple projects for Walmart, including Clinical Packages (Compound Drugs) and RDM Carbon Prescriber.',
+      'Collaborated on multiple Health & Wellness projects for Walmart, including Clinical Packages, Compound Drugs and RDM Carbon Prescriber.',
     image: walmart,
     link: 'https://www.walmart.com/',
-    techStack: ['Java', 'Spring Boot', 'Spring Security', 'Microservices'],
+    techStack: ['Java', 'Spring Boot', 'Spring Security', 'Apache Kafka'],
     problem:
       'Walmarts healthcare platforms faced significant challenges in their pharmacy and clinical services. The existing systems for compound drugs lacked flexibility for complex medication formulations and pricing structures. Simultaneously, the prescriber platform struggled with integration limitations, making it difficult to maintain a unified view of prescriber data across different systems. These technical constraints were limiting Walmarts ability to innovate and scale their healthcare offerings while maintaining compliance with healthcare regulations and data security standards.',
     solution:
-      'I contributed to the development of two key healthcare systems for Walmart. For the Clinical Packages (Compound Drugs) system, I designed and implemented flexible APIs that could handle complex medication combinations and dynamic pricing models. The solution employed a microservices architecture with Spring Boot to enable independent scaling and deployment of components. For the RDM Carbon Prescriber platform, I developed secure APIs that facilitated seamless integration between disparate prescriber systems, creating a consolidated view of prescriber data. Both systems incorporated robust security measures using Spring Security to ensure HIPAA compliance and protect sensitive healthcare information. The implementations followed healthcare industry best practices for data governance and featured comprehensive logging and monitoring capabilities to enable rapid problem resolution. These solutions allowed Walmart to enhance their pharmacy services while maintaining high reliability and security standards.'
+      'I contributed to the development of the healthcare systems for Walmart. For the Clinical Packages and Compound Drugs system, I designed and implemented flexible APIs that could handle complex medication combinations and dynamic pricing models. The solution employed a microservices architecture with Spring Boot to enable independent scaling and deployment of components. For the RDM Carbon Prescriber platform, I developed secure APIs that facilitated seamless integration between disparate prescriber systems, creating a consolidated view of prescriber data. Both systems incorporated robust security measures using Spring Security to ensure HIPAA compliance and protect sensitive healthcare information. The implementations followed healthcare industry best practices for data governance and featured comprehensive logging and monitoring capabilities to enable rapid problem resolution. These solutions allowed Walmart to enhance their pharmacy services while maintaining high reliability and security standards.'
   },
   {
     id: 4,

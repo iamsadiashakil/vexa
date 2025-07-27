@@ -52,6 +52,7 @@ const Services = () => {
                 "Spring Boot",
                 "Spring Data JPA",
                 "Spring Security",
+                "Apache Kafka"
               ]}
               icon={CodeBracketIcon}
             />
