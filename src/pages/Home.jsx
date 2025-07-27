@@ -121,13 +121,13 @@ const services = [
     id: 1,
     title: "Server-Side Development",
     description: "Robust and scalable RESTful APIs using Java SpringBoot (Spring Data JPA, Spring Security, Apache Kafka) and C# (MVVM Cross), designed for high availability and performance.",
-    icon: "🔗",
+    icon: "⚙️",
   },
   {
     id: 2,
     title: "Client-Side Development",
     description: "Native Android apps in Java, cross-platform mobile apps using Xamarin (C#), and responsive web interfaces using HTML and CSS.",
-    icon: "📱",
+    icon: "🖥️",
   },
   {
     id: 3,
@@ -137,19 +137,12 @@ const services = [
   },
   {
     id: 4,
-    title: "Web Solutions",
-    description:
-      "Frontend and backend web development with HTML, CSS, JSP, and MySQL.",
-    icon: "💻",
-  },
-  {
-    id: 5,
     title: "Databases",
     description: "Hands-on experience with PostgreSQL, Redis, MSSQL Server, MySQL, and SQLite.",
     icon: "🗃️"
   },
   {
-    id: 6,
+    id: 5,
     title: "Monitoring & Logging",
     description: "Proficient in using ELK Stack, Rollbar, and DataDog for application monitoring, error tracking, and log analysis.",
     icon: "🔍"

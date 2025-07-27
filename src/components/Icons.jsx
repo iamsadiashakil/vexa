@@ -84,3 +84,30 @@ export const PhoneIcon = (props) => (
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5.25C3 4.56 3.56 4 4.25 4h2.548c.347 0 .676.179.853.47l1.708 2.93a.998.998 0 01-.215 1.243l-1.23 1.23a15.978 15.978 0 006.586 6.586l1.23-1.23a1 1 0 011.243-.215l2.93 1.708a1 1 0 01.47.853V19.75a1.25 1.25 0 01-1.25 1.25C7.798 21 3 16.202 3 10.25V5.25z" />
   </svg>
 );
+
+export const CloudIcon = (props) => (
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h10a4 4 0 100-8 6 6 0 00-11.546-1.548A4.5 4.5 0 003 15z" />
+  </svg>
+);
+
+export const DatabaseIcon = (props) => (
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4c4.418 0 8 1.79 8 4s-3.582 4-8 4-8-1.79-8-4 3.582-4 8-4zm0 8c4.418 0 8 1.79 8 4s-3.582 4-8 4-8-1.79-8-4 3.582-4 8-4zm0 0v8" />
+  </svg>
+);
+
+export const MagnifyingGlassIcon = (props) => (
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+  </svg>
+);
+
+// Emoji icons as components
+export const ClientIcon = (props) => (
+  <span {...props} role="img" aria-label="monitor">🖥️</span>
+);
+
+export const ServerIcon = (props) => (
+  <span {...props} role="img" aria-label="server">⚙️</span>
+);

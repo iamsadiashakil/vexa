@@ -26,7 +26,7 @@ export const projectsData = [
   {
     id: 2,
     slug: 'secp-high-availability-apis',
-    title: 'SECP',
+    title: 'SECP API System',
     description:
       'Designed and built highly-available and secure API solutions in Java Spring Boot for the Securities & Exchange Commission of Pakistan (SECP).',
     image: secp,

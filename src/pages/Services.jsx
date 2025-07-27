@@ -5,8 +5,9 @@ import Header from "../components/Navbar";
 import Footer from "../components/Footer";
 import {
   CodeBracketIcon,
-  GlobeAltIcon,
-  DevicePhoneMobileIcon,
+  CloudIcon,
+  DatabaseIcon,
+  MagnifyingGlassIcon,
 } from "../components/Icons";
 
 const Services = () => {
@@ -34,60 +35,81 @@ const Services = () => {
             title="Expert Software Solutions"
             description="We provide end-to-end services from concept to deployment and beyond."
           />
-
           <div className="space-y-12">
             <ServiceDetail
-              title="Java Spring Boot API Development"
-              shortDescription="Robust and scalable RESTful APIs using Spring Boot and Apache Kafka"
-              longDescription="Design and development of scalable RESTful APIs and microservices using Java Spring Boot. Utilizes Spring Data JPA and Spring Security for secure, high-performance systems. Apache Kafka is integrated for reliable asynchronous messaging, enabling real-time data streaming and decoupled service communication. Ideal for enterprise-grade backend applications with strong authentication and data layer integrity."
+              title="Server-Side Development"
+              shortDescription="Robust and scalable RESTful APIs using Java SpringBoot (Spring Data JPA, Spring Security, Apache Kafka) and C# (MVVM Cross)"
+              longDescription="Design and development of robust backend systems using Java Spring Boot and C#. Leverages technologies like Spring Data JPA, Spring Security, and Apache Kafka to build high-performance, scalable APIs with real-time capabilities and strong security features."
               features={[
                 "RESTful APIs & microservices architecture",
                 "Spring Data JPA for efficient ORM",
                 "Spring Security with authentication/authorization",
                 "Apache Kafka for real-time, event-driven communication",
-                "Clean, modular code structure",
-                "Exception handling and async support",
+                "High availability and fault tolerance",
+                "Clean, modular backend codebase",
               ]}
               technologies={[
                 "Java",
                 "Spring Boot",
                 "Spring Data JPA",
                 "Spring Security",
-                "Apache Kafka"
+                "Apache Kafka",
+                "C#",
+                "MVVM Cross",
               ]}
               icon={CodeBracketIcon}
             />
 
             <ServiceDetail
-              title="Mobile App Development (Android/Xamarin)"
-              shortDescription="Native and cross-platform Android apps"
-              longDescription="Development of mobile apps using Xamarin (C#) for cross-platform solutions and Java for native Android applications. Apps are built with clean architecture patterns like MVVM Cross and integrate seamlessly with APIs and native device features."
+              title="Client-Side Development"
+              shortDescription="Native Android apps in Java, cross-platform mobile apps using Xamarin (C#), and responsive web interfaces"
+              longDescription="Development of mobile and web interfaces using Java for Android, Xamarin with C# for cross-platform solutions, and standard web technologies (HTML, CSS). Interfaces are responsive, user-friendly, and optimized for performance and UX."
               features={[
-                "Cross-platform apps with Xamarin (C#)",
-                "Native Android apps using Java",
-                "MVVM Cross architecture",
-                "Integration with device features (camera, sensors, etc.)",
-                "App deployment and store publishing",
+                "Native Android development in Java",
+                "Cross-platform mobile development with Xamarin (C#)",
+                "MVVM Cross architecture pattern",
+                "Responsive design using HTML/CSS",
+                "Device feature integration (camera, GPS, etc.)",
               ]}
               technologies={[
+                "Java",
+                "Android",
                 "Xamarin",
                 "C#",
-                "MVVM Cross",
-                "Android (Java)",
-                "Android Studio",
-                "SQLite",
+                "HTML",
+                "CSS",
               ]}
-              icon={DevicePhoneMobileIcon}
+              icon={CodeBracketIcon}
             />
 
             <ServiceDetail
-              title="Database Management & Integration"
-              shortDescription="Robust, scalable, and optimized data storage solutions"
-              longDescription="Design and management of relational and in-memory databases for both transactional and analytical applications. Includes schema design, query optimization, data migration, and seamless integration with backend services."
+              title="Cloud & DevOps"
+              shortDescription="Deployment automation and container orchestration with Docker and AWS EKS"
+              longDescription="End-to-end DevOps support including containerized deployment with Docker and orchestration using AWS Elastic Kubernetes Service (EKS). Enables scalable, fault-tolerant deployments in cloud environments with full CI/CD and monitoring integration."
               features={[
-                "Relational and in-memory database support",
+                "Docker-based containerization",
+                "Kubernetes orchestration using AWS EKS",
+                "CI/CD pipeline integration",
+                "Scalable cloud infrastructure setup",
+                "Infrastructure as Code (IaC)",
+              ]}
+              technologies={[
+                "Docker",
+                "AWS EKS",
+                "CI/CD",
+                "Kubernetes",
+              ]}
+              icon={CloudIcon}
+            />
+
+            <ServiceDetail
+              title="Databases"
+              shortDescription="Hands-on experience with relational and in-memory databases"
+              longDescription="Database design, optimization, and integration experience across multiple platforms including PostgreSQL, Redis, MSSQL Server, MySQL, and SQLite. Covers schema design, normalization, and caching for high-performance data systems."
+              features={[
+                "Relational and in-memory databases",
                 "PostgreSQL, MySQL, MSSQL Server, SQLite",
-                "Redis for caching and real-time data access",
+                "Redis for caching and real-time access",
                 "Schema design and normalization",
                 "Query optimization and performance tuning",
               ]}
@@ -98,29 +120,26 @@ const Services = () => {
                 "SQLite",
                 "Redis",
               ]}
-              icon={CodeBracketIcon}
+              icon={DatabaseIcon}
             />
 
             <ServiceDetail
-              title="Cloud & DevOps"
-              shortDescription="Deployment automation, container orchestration, and observability"
-              longDescription="DevOps services including CI/CD pipelines, containerization using Docker, and cloud orchestration on AWS EKS. Also includes implementation of observability tools like ELK, Rollbar, and DataDog for system monitoring, logging, and performance insights."
+              title="Monitoring & Logging"
+              shortDescription="Application observability using ELK Stack, Rollbar, and DataDog"
+              longDescription="Monitoring and logging services using ELK Stack, Rollbar, and DataDog. Enables robust tracking, alerting, and log aggregation across microservices and APIs, supporting faster debugging and performance optimization."
               features={[
-                "Containerization with Docker",
-                "Kubernetes orchestration on AWS EKS",
-                "CI/CD pipeline setup and maintenance",
-                "Infrastructure monitoring and alerting",
-                "Log aggregation and traceability with ELK, Rollbar, DataDog",
+                "Centralized logging with ELK Stack",
+                "Real-time error tracking using Rollbar",
+                "Performance monitoring with DataDog",
+                "Log analysis and reporting",
+                "System health dashboards and alerts",
               ]}
               technologies={[
-                "Docker",
-                "AWS EKS",
-                "CI/CD",
-                "ELK",
+                "ELK Stack",
                 "Rollbar",
                 "DataDog",
               ]}
-              icon={DevicePhoneMobileIcon}
+              icon={MagnifyingGlassIcon}
             />
           </div>
 
