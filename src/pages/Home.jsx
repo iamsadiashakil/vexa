@@ -120,8 +120,7 @@ const services = [
   {
     id: 1,
     title: "Server-Side Development",
-    description:
-      "Robust and scalable RESTful APIs using Java SpringBoot (Spring Data JPA, Spring Security) and C# (MVVM Cross), designed for high availability and performance.",
+    description: "Robust and scalable RESTful APIs using Java SpringBoot (Spring Data JPA, Spring Security, Apache Kafka) and C# (MVVM Cross), designed for high availability and performance.",
     icon: "🔗",
   },
   {

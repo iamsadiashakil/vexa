@@ -38,12 +38,13 @@ const Services = () => {
           <div className="space-y-12">
             <ServiceDetail
               title="Java Spring Boot API Development"
-              shortDescription="Robust and scalable RESTful APIs using Spring Boot"
-              longDescription="Design and development of scalable RESTful APIs and microservices using Java Spring Boot. Utilizes Spring Data JPA and Spring Security for secure, high-performance systems. Ideal for enterprise-grade backend applications with strong authentication and data layer integrity."
+              shortDescription="Robust and scalable RESTful APIs using Spring Boot and Apache Kafka"
+              longDescription="Design and development of scalable RESTful APIs and microservices using Java Spring Boot. Utilizes Spring Data JPA and Spring Security for secure, high-performance systems. Apache Kafka is integrated for reliable asynchronous messaging, enabling real-time data streaming and decoupled service communication. Ideal for enterprise-grade backend applications with strong authentication and data layer integrity."
               features={[
                 "RESTful APIs & microservices architecture",
                 "Spring Data JPA for efficient ORM",
                 "Spring Security with authentication/authorization",
+                "Apache Kafka for real-time, event-driven communication",
                 "Clean, modular code structure",
                 "Exception handling and async support",
               ]}
