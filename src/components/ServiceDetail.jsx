@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from './Icons';
+import { Link } from 'react-router-dom';
 
 const ServiceDetail = ({ 
   title, 
@@ -77,11 +78,13 @@ const ServiceDetail = ({
           </div>
 
           {/* CTA Button */}
-          <div className="mt-8 text-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
-              Get This Service
-            </button>
-          </div>
+          <Link to="/contact">
+            <div className="mt-8 text-center">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                Get This Service
+              </button>
+            </div>
+          </Link>
         </div>
       )}
     </div>
