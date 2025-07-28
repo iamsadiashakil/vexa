@@ -82,7 +82,7 @@ export const projectsData = [
   {
     id: 6,
     slug: 'customer-app',
-    title: 'Customer App',
+    title: 'Customer Service',
     description:
       'Spring Boot-based RESTful API for managing customers and users with JWT-based authentication and authorization.',
     image: customer,
@@ -106,7 +106,7 @@ export const projectsData = [
   {
     id: 7,
     slug: 'staff-app',
-    title: 'StaffApp',
+    title: 'Staff App',
     description:
       'An Android application designed for health professionals to manage patient vitals, communicate with caretakers, and manage their profile efficiently.',
     image: staff, // Add actual image in /public/assets/
@@ -134,7 +134,7 @@ export const projectsData = [
   {
     id: 9,
     slug: 'healthcare-service-api',
-    title: 'Healthcare Service API',
+    title: 'Healthcare Service',
     description:
       'Spring Boot-based RESTful API to manage patients, doctors, and appointments in a healthcare system. Designed with clean architecture, validation rules, and ready for future scalability.',
     image: health, // Make sure this image exists or adjust the path
